@@ -30,4 +30,4 @@ npm install
 npm run build
 
 # push
-clasp push
+clasp push -f
