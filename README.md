@@ -3,18 +3,21 @@
 ## セットアップ
 ### clasp
 ```bash
-npm i -g clasnpm install -g @google/clasp
 clasp login
+npm install -g @google/clasp
 ```
 
-### リポジトリ
+### リポジトリの作成
+本リポジトリをテンプレートとして使用
 ```
-gh repo create <リポジトリ名> --template yk097/gas-template --private
+gh repo create <REPOSITORY> --template yk097/gas-template --private
+gh repo clone <REPOSITORY>
 ```
 
-### プロジェクト
+### プロジェクトのセットアップ
 ```
-sh setup.sh <プロジェクト名>
+cd REPOSITORY
+sh setup.sh <PROJECT>
 ```
 
 ## ビルド
